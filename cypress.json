@@ -1,0 +1,19 @@
+{
+    "env":{
+        "url": "https://www.officemate.co.th/en"
+    },
+    "baseUrl": "https://www.officemate.co.th/en",
+    "viewportWidth": 1440,
+    "viewportHeight": 900,
+    "defaultCommandTimeout": 20000,
+    "supportFile": "./cypress/support/index.js",
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "reportDir": "cypress/results",
+      "overwrite": false,
+      "html": true,
+      "json": true
+    }
+    
+    
+}
